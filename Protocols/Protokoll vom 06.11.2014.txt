@@ -1,0 +1,24 @@
+Protokoll vom 06.11.2014
+* Kevin und Marcel erhalten einen Schlüssel für die Räume B319, CG-Labor, C208
+* OpenGL-Debugger funktioniert noch nicht o Svenja hat uns Funktionen und grundlegende Befehle erklärt
+* Debugging wurde von Niklas vorgestellt o Beim Debugging wird ein log-file mit timestamps erstellt o Es wurde besprochen welche assertions sinnvoll wären und das Prioritäten der Errormeldungen von Vorteil wären
+* Kevin hat sich mit FBO’s beschäftigt o Funktioniert soweit, jedoch gibt es noch Probleme beim Kompilieren
+* Input ist noch nicht fertig o Grundgerüst steht soweit o Kamera vom CVK übernommen 
+* Marcel hat den Szenegraphen erweitert o Er enthält nun Kamerafunktionen o Node.h wurde die Schnittstelle für die Kamera hinzugefügt o Erste Bufferimplementation wurde ebenfalls vorgestellt o Memorymanagement-System wurde empfohlen
+* Nico hat eine Texturklasse vorgestellt o Noch fehlerhaft o AM CVK orientiert o Hat sich mit Materialklasse beschäftigt
+* Codingstyle wurde nochmals angesprochen o Alle Kommentare kommen nun in die Headerdatei
+* Elli hat 3 GUI’s vorgestellt o CEGUI, FLTK, Qt o Weitere GUI-Entwicklung in Phase 2 verschoben
+* Multithreading wurde von Christopher vorgestellt o Wir wollen Intel Threading Building Blocks benutzen
+* Lisa hat das fertige Logo präsentiert
+* Aufgaben zum nächsten Treffen:
+* Svenja und Niklas arbeiten weiter am Debugging
+* (Überlegungen was wir in der 2. Phase machen und wer würde was machen?)
+* Nico arbeitet weiter an Textur und Material
+* Lisa und Madeleine arbeiten weiter an Input
+* Maik arbeitet weiter an den Uniforms 
+* Marcel arbeitet weiter am Buffer und Szenegraphen und an den Schnittstellen
+* Kevin arbeitet an den FBO’s weiter
+* Elli arbeitet an Assimp 
+* Christopher hilft bei den Shadern
+* Jan soll Intel TBB in CMake einbinden
+

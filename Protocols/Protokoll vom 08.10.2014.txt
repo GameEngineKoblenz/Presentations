@@ -1,0 +1,18 @@
+Protokoll vom 08.10.14
+1. Treffen
+Wann: Jeden Donnerstag um 12 Uhr bis 14 Uhr (ggf. auch länger) Wo: Nächstes Mal in B016/B017 Danach nächstes Mal klären Ab Mitte Dezember in B318
+2. Open Source
+Wir dürfen das Projekt Open Source machen, sofern wir bis zum Abschluss des Projekts die Einzigen sind, die daran arbeiten können. Es wurde einstimmig entschieden, dass Projekt Open Source zu machen.
+3. Kekse
+Jeder hat 1€ gespendet und Elli besorgt Kekse für die nächsten Treffen.
+4. Vortag Architekturstile
+Scarlett Grenzemann hat einen Vortrag über Architekturstile gehalten. Dieser wird von Kevin in GitHub hochgeladen. Die genannten Architekturstile waren: Layered, Repository, Data Flow, Component Interaction, und Adaption. Es wurde sich noch nicht auf ein oder mehrere Architekturstile geeinigt.
+5. Repository
+Maik gründet in Git eine Company, der alle beitreten. Dort sollen zwei Repositories angelegt werden, damit Code und Sonstiges (Vorträge, Protokolle, usw.) voneinander getrennt werden.
+6. Komponentendiagram
+[Fehlt]
+7. Voice Chat
+Es wurde sich für Skype entschieden. Austausch der Namen sollte bis zum nächsten Mal erfolgen.
+8. Aufgaben
+CMake einrichten und eine Dokumentation ins Wiki schreiben: Jan Dokumentationsstil festlegen und über Doxygen (oder ähnliche) informieren: Elli Git Build-Server und Compiler: Maik Git-Company: Maik Szenegraph + Renderer + deren Zusammenhang und Schnittstellen: Michi, Maik, Niklas, Marcel Input (GLFW): Madeleine Bibliotheken raus suchen und an Cmake- Beauftragten weitergeben: Jan, Christ Lizenzmodell erstellen (z.B. mit, apache): Svenja, Lisa GUI: Svenja, Lisa Name für Company überlegen: Michi, Nicolas (und jeder, dem etwas einfällt) Coding-Style: Nicolas
+

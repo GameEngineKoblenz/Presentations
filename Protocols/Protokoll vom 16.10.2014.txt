@@ -1,0 +1,31 @@
+Protokoll 16.10.2014
+Besprechung der Aufgaben vom letzten Mal :
+-cmake (Folien dazu wollte Jan noch hochladen, bzw. sind schon teilweise im wiki)
+danach kurze Diskussion zu libraries, und die Anmerkung von Kevin, dass wir versuchen sollten keine Freiheiten beim Programmieren aufzugeben indem wir uns zu sehr auf schon vorhandene Bibliothek fixieren.
+-renderer/szenengraph
+Anmerkung von Kevin, dass wir uns auf jeden Fall noch mehr Gedanken dazu machen müssen wie die Beziehungen zwischen Shader, Szenengraph, FBO's und Renderer aussehen. Desweiteren darauf achten, dass später beim Renderer ein Shader-Wechsel möglich sein muss. Beim Szenengraph sollten sich noch ein paar Gedanken darüber gemacht werden was alles in einer node vom Graph steht. Der renderer enthält alles (oder anders gesagt muss zugriff darauf haben) was zum rendern benötigt wird : Material, Licht, die Objekte, die gerendert werden, was gerendert wird (screen-filling quad oder eine Szene) und worein gerendert wird (Bildschirm oder FBO/Textur).
+-input
+-gui AntTweakBar vs turbobadger
+-Dokumentation
+Bei der Dokumentation soll Doxygen verwendet werden, nach Möglichkeit durch Integration in cmake und später dann im wiki.
+-coding Style
+Nachzulesen im Wiki
+Wissenswerte Ergebnisse
+Nächstes Treffen am Freitag (24.10.14) um 12 Uhr
+Außerdem Verlegung der Treffen am Donnerstag um 2 Stunden nach hinten; also ab dem 30.10.14 beginnen die Treffen Donnerstags um 14 Uhr
+GeKo (GameEngineKoblenz, in Git Hub) ist ab jetzt der Name des Projekts.
+Desweiteren haben wir uns dazu entschieden C++ 11 zu verwenden. Dazu wird Maik noch einen Vortrag halten.
+Aufgaben bis zum nächsten mal :
+* Andere Game Engines ansehen :
+* Unreal4 (Madeleine, Nicolas, Christopher)
+* Unity (Christopher, Niklas, Marcel)
+* Vortrag c++ 11 (Maik)
+* cmake : libraries und evtl schon Doxygen (Jan)
+* Diagramm zum Renderer/Szenengraph (Marcel, Michi, Maik)
+* GUI : AntTweakBar <-> TurboBadger (Lisa, Svenja)
+* Logo, nicht Paint ! (Lisa)
+* Model Library und Image Library : Assimp und SDB Image sind Ansatzpunkte/Vorschläge (Elvira)
+Und noch ein kurzer Tipp von Kevin war, dass beim nächsten Mal auf jeden Fall an dem Diagramm weiter gearbeitet werden sollte.
+Außerdem haben wir schon 2 Freiwillige für Protokoll (Elvira) und Gesprächsführer (Svenja).
+Desweiteren soll es nächste Woche Kekse geben...
+

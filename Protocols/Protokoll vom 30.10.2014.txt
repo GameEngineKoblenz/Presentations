@@ -1,0 +1,20 @@
+Protokoll 30.10.2014
+Besprechung der bisherigen Aufgaben:
+* Gui: TurboBadger ist nicht so toll. Wir suchen etwas neues, dokumentiertes.
+* Cmake: Jan hat uns auf den neuesten Stand gebracht.
+* Input: Das Inputsystem dauert noch ein bischen. Es wurde geraten, bis zu dessen Fertigstellung, sich am CVK zu bedienen.
+* Renderer: Es wurde der bisherige Stand des Renderers vorgestellt.
+* Übersicht über zukünftige Aufgaben: Kevin M. hat im Wiki ein Diagramm gepostet, wo mögliche zukünftige Aufgaben und deren Vorraussetzungen aufgezeigt werden. Über den Aufbau wurde auch noch diskutiert und der dort gezeigte Kern ist zu überdenken. So kann man alle Sachen, die in Teil 1 stehen und nicht als Grundvorraussetzung für andere Sachen stehen in Phase 2 verschieben (Bspw. SSAO, Landschaft, usw.)
+Aufgaben zum nächsten mal:
+* Schlüssel für das CG Labor und C208 (Kevin K.)
+* An Cmake weiterarbeiten (Assimp) und Path Variable von graphviz ins Wiki eintragen. (Jan)
+* OpenGL 4 Debugging (Svenja)
+* Debugging (Niklas)
+* FBO (Kevin M)
+* Input (Madeleine, Lisa)
+* Kamera & Licht (Marcel)
+* GUI (Elli)
+* uniform variablen einbinden (Maik)
+* Texturen laden (Nico)
+* Das Diagramm angucken und entscheiden, was wirklich in den Kern gehört und was man auch später hinzufügen kann.
+

@@ -1,0 +1,88 @@
+Protokoll vom 13.11.14
+Coding Style
+* Bennenung der Shader-Dateien: RedShader/RedShader.vert
+* Getter: anstatt getCameraName() nur noch getName() 
+* Typen für Variablen: 
+o Normalen: vec3
+o UV- Koordinaten: vec2
+o Colorvektoren, Vertices etc.: vec4
+Ordnerhierarchie in Geko-Graphics
+* Ab nächster Woche sollen Ordner für die jeweils eigenen Projekte wie Kamera, Licht etc. angelegt werden
+* Jan möchte sich bis dahin um die nötigen cmake Grundlagen kümmern, damit die Ordnerstrukturen auch in Visual Studio richtig angezeigt werden.
+Assimp/ Szenegraph
+* Da es mit Assimp in Verbindung mit Eclipse noch Probleme gibt, konnte Ellie hatte Probleme nicht builden. 
+* Das Thema wurde erstmal vertagt
+Uniform Variablen
+* Wir können nun Uniform- Variablen verwenden und übergeben.
+* Wenn das Shader- System komplett fertig ist (inkl. dem Parsing-Ansatz), wird auch die Verwaltung der Uniform- Variablen nochmal überarbeitet.
+Debugging
+* Das Debugging funktioniert jetzt soweit.
+* Einträge aus dem Debug-Log können ausgelesen werden. 
+* Svenja wird das Debugging noch in eine eigene Klasse auslagern.
+Cmake
+* Jan hat eine Funktion eingerichtet mit der man den von Visual Studio verwendeten Compiler auf MinGW umstellen kann 
+* Graphviz funktioniert jetzt besser als zuvor. 
+* Das Einbinden von Intel TBB bereitet Probleme und funktioniert nur mit der 64bit- Version von MinGW
+* Wir einigen uns deshalb darauf vorerst die MinGW 64bit- Version vorauszusetzen.
+Texturen/Material
+* Die Verwendung von Texturen funktioniert.
+* Es wurde der Vorschlag gemacht in der 2. Phase Physically Based Shading/ Rendering zur Darstellung verschiedener Materialien umzusetzen. Das Thema Material wurde deshalb auch zunächst zurückgestellt.
+Buffermanager
+* Die Kommunikation zwischen Szenegraph, Shader und Geometry (Buffer) funktioniert.
+* Das Rendern mit Normalen und UVs ist möglich.
+* Der Buffermangaer wird noch weiter ausgebaut z.B. durch Index-Buffer-Objekte
+FBO
+* Die Verwendung von Screen- Filling- Quads und FBOs ist jetzt möglich
+* Letzte Probleme mit dem G- Buffer wurden geklärt, sodass dieser auch bald zur Verfügung stehen wird. 
+Input Mapping
+* Das Input Mapping funktioniert.
+* Es ist theoretisch möglich in die Szene rein- und wieder herauszuzoomen. Leider konnten wir auf Grund fehlender Uniform- Variablen bisher nur eine Textausgabe in der Konsole sehen.
+* Bis nächste soll die Trackball-Funktion der Kamera vollständig implementiert sein
+* Außerdem sollen die Uniform-Variablen eingebunden werden, damit wir das Ganze auch auf dem Bildschirm sehen können.
+Mögliche Themen für die 2. Phase
+* Es wurden mögliche Themen für die 2. Phase gesammelt und notiert wie viele sich für welches Thema interessieren würden.
+* Außerdem wurde noch geklärt was noch in der 1. Phase implementiert werden könnte/sollte.
+1. Teil: 
+o Normal Mapping
+o Deferred Shading
+o Skybox
+o Ressourcenmanager
+o Shadermanager
+2. Teil: 
+o Partikelsystem (Feuer, Rauch, etc) 9
+o Beleuchtungszyklen (Tag/Nacht) 9
+o Post Processing (SSAO, GodRay, Bloom,...) 8
+o Physik / Kollisionerkennung / (GPGPU) 7
+o Schatten (Shadow Mapping) 7
+o physically-based Shading (Material) 6
+o KI 6
+o Wasser 5
+o Gameplay / Entity-Component-System 3
+o Animation 3
+o Anti Aliasing 2
+o Sound 2
+o Level of Detail / Große Welten 2
+o Netzwerk / Speichersystem 1
+o (WebGL) 1
+o Scriptsprache 0
+o Softbodies / (Fell) 0
+o (real-time-Global-Illumination)
+3. Teil: 
+o Editor / GUI / Text
+Sonstiges
+* Maik vergibt an alle, die sich mit Git sicher fühlen, Rechte zur Verwaltung des Repositorys (dazu einfach bei Maik melden)
+* Die Ausarbeitungen sollen mit Latex verfasst werden.
+* Die Issues sollen mehr genutzt werden! (aktueller Status, Probleme etc.)
+Aufgaben für nächste Woche
+* Alle: die Präsentationen und Protokolle ins neue Repo ("GameEngineKoblenz") übertragen
+* Ellie kümmert sich noch einmal um Assimp
+* Maik beschäftigt sich damit das Shader- System zu überarbeiten (Parsen der Shader zum Auslesen der nötigen Uniforms etc.)
+* Chris hat sich bereit erklärt das neue Repo durch die Sachen aus dem alten Repo zu ergänzen und für Protokolle, Vorträge etc. eine Ordnerstruktur anzulegen
+* Jan beschäftigt sich noch einmal damit Intel TPP mit cmake einzubinden
+* Nikolas möchte bis nächste Woche Normal Mapping implementieren
+* Michi kümmert sich um die Implementierung einer Skybox und weiterhin um die FBOs
+* Marcel erweitert den Buffermanager und kümmert sich nun auch um die Uniform- Variablen
+* Svenja und Niklas bearbeiten weiter das Thema Debugging/ Logging
+* Lisa und Madeleine vervollständigen ihre Trackball-Funktion (inkl. Uniforms)
+* Marcel und Michi wollen sich außerdem um das Licht kümmern. 
+

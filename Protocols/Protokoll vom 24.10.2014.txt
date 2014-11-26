@@ -1,0 +1,32 @@
+Protokoll 24.10.2014
+Besprechung der Aufgaben bis zu diesem Termin:
+* andere Game-Engines:
+An dieser Stelle nur angemerkt, was an den anderen Engines gut war, was eventuell ein Teil unseres Projekts werden könnte:
+* Lichtquellenlösung (Unreal)
+* dazu Reflektionen, die man an und aus machen kann (Unreal)
+* Schatten an und aus machbar (Unreal)
+* Drag and Drop Editor (Unreal)
+* Physics (Unreal)
+* Anti- Aliasing durch Texturen gelöst (Unreal)
+* durch Skripte alles manipulieren können (Unity)
+Zusätzlich hat Christopher noch erzählt, wie Klassen in Game-Engines standardmäßig zusammenhängen. Die Folien dazu sollten online zu finden sein.
+* neue UML-Diagramme von Renderer und Szenegraph:
+Die Diagramme selbst sollten im Wiki zu finden sein. Zum Szenegraphen gibt es noch kein richtiges Diagramm und Marcel und Kevin M. haben ihre bisher gecodeten Dinge in Diagramme dargestellt. Dabei hat Marcel eine eher gekapselte Version bevorzugt, bei der der Renderer im Mittelpunkt steht. Kevin hat eher ein Repository dargestellt, bei der eine Szenedatei im Mittelpunkt steht. Dabei haben wir uns darauf geeinigt, dass Marcel und Kevin bis zum nächsten Mal eine gemeinsame Lösung aufstellen werden, also eine Art Hybrid. 
+* CMake:
+Jan hat berichtet, dass CMake und Doxygen nun laufen und er die benötigten Dateien hochlädt.
+* Vortrag Cpp11 von Maik
+Maik hat einen Vortrag gehalten, der inzwischen bei Git zu finden sein sollte.
+* Model-/ Imageloader
+Wir haben uns auf Assimp als Modelloader und STB_Image als Imageloader geeinigt.
+* Lizenzmodell
+Man hat sich auf das Lizensmodell APACHE festgelegt. Lisa hat angemerkt, dass das Logo noch in Bearbeitung ist.
+* GUI
+Nach einem Vortrag von Svenja wurde beschlossen, dass wir unser Glück zunächst mit TurboBadger versuchen.
+Für das nächste Mal...
+* GUI-Ideen/-KOnzept mit TurboBadger (Chris, Nikolas)
+* CMake-Erweiterungen (Jan)
+* Szenegraph + Renderer (Maik, Kevin, Marcel)
+* Kamera, Licht, Input (Lisa, Madeleine)
+* Ausblick, was danach zu tun wäre (Svenja, Elvira)
+* zusätzlich wollte Maik noch ein Repository anlegen für die Vorträge, die nach den Terminen unserer Treffen sortiert sind
+
