@@ -1,0 +1,119 @@
+Protokoll vom 26.09.2014
+Versammlungsleitung: Kevin Keul
+Protokollant(-in): Lisa Werner, Marcel Bock
+Ablauf:
+– 1. Teamstrukturen
+– 2. Treffen des Projektteams
+– 3. Kommunikation
+– 4. Besprechung des CVK
+– 5. Erstes Brainstorming
+– 6. Organisatorisches
+————————————————————————————————
+1. erste Besprechung CVK
+* Performance wird von Kevin Keul als nicht so wichtig eingestuft
+* Die Erweiterbarkeit wird von Kevin Keul als wichtig genannt
+* Es werden drei Schritte von Kevin Keul genannt
+– Architektur
+– Erweitern
+– Darstellen
+
+* Beschluss: Ob ein Editor oder ein Spiel am Ende erstellt wird, soll erst im Laufe des Praktikums geklärt werden
+* Beschluss: Es soll ausschließlich in C++ programmiert werden
+* Beschluss: Es soll abwärtskompatibel programmiert werden und mehrere Plattformen sollen unterstützt werden
+* Beschluss: Es soll von 0 gestartet und programmiert werden, während man im CVK nachschauen kann, ob etwas brauchbares schon vorhanden ist
+* Beschluss: Alle Teilnehmer erstellen ein UML-Diagramm für die BasisArchitektur der Game-Engine, bis zum nächsten Treffen
+————————————————————————————————
+2. Treffen des Projektteams
+* Beschluss: Alle Teilnehmer des Projektes sollen sich mindestens einmal in der Woche treffen
+* Beschluss:Bis zum nächsten Treffen soll jeder Teilnehmer seinen Stundenplan für das nächste Semester fertigstellen
+– Beim nächsten Treffen soll der genaue Tag des wöchentlichen Treffens
+festgelegt werden
+* Das wöchentliche Treffen soll dazu dienen, neue Aufgaben zu verteilen und Probleme zu klären
+– unterhalb der Woche können auch mehrere Treffen in Kleingruppen stattfinden
+
+* Beschluss: Kevin Keul bietet an, sich, für das Team, über die Verfügbarkeit des Raumes B318 zu informieren
+————————————————————————————————
+3. Kommunikation
+* Beschluss: Als Plattform, um Dokumente, programmierte Klassen und ähnliches hochzuladen und zu sammeln wird GIT benutzt
+* Beschluss: Kevin Keul will klären, ob die geplante Game-Engine als Open-Source zugänglich sein darf
+* Beschluss: Maik Klein will verschiedene Links zu GIT an alle Teilnehmer schicken
+* Beschluss: Maik Klein wird ein Repository für das Projekt bei GIT erstellen
+* Beschluss: Alle Teilnehmer melden sich bei GIT an, adden MaikKlein und laden ihre Präsentationen des ersten Treffens hoch
+* Beschluss: Beim nächsten Treffen soll über eine Kommunikationsplattform„ neben GIT, abgestimmt werden
+– Skype, Google Hangouts, TeamSpeak
+
+* Beschluss: Vorerst soll nur Maik Klein Administratoren-Rechte haben
+————————————————————————————————
+4. Teamstruktur
+* Beschluss: Es soll keine festen, sondern dynamische Teams geben
+– Die Teams sollen sich bei jeder neuen Aufgabe neu zusammensetzen
+– Damit soll es auch keine festen Teamleiter geben
+– Es sollen in jedem Team Stellvertreter gewählt werden
+
+* Beschluss: Lisa Werner und Marcel Bock bieten sich als Protokollanten an
+* Beschluss:Die erste Einteilung der Teams soll, wenn möglich, beim nächsten Treffen stattfinden
+* Beschluss: Ein oder zwei Dokumentationsleiter werden beim nächsten Treffen bestimmt
+* Beschluss: Kevin Michalski möchte gerne Projektleiter sein
+* Beschluss: Deutsch wird die primäre Sprache während des Projektpraktikums sein
+————————————————————————————————
+5. erstes Brainstorming
+* Ein Glossar mit einheitlichen Definition zu erstellen, wird von Kevin Keul geraten
+* Für den Code-Style sollte ein einheitliches Schema festgelegt werden
+* Eine Liste von Problemen wird erstellt
+– Erweiterbarkeit
+– Abwärtskompatibilität
+– Corss-Plattform
+– Architektur-Stil
+– Szenengraph
+– generische Shader
+– Typesafe
+– Config-File
+– Shader-Library
+– Shader-Parsing
+– Modell-Importer
+– Fileformate
+– Animationen
+– Video-Unterstützung
+– Texturen laden
+– Multithreading
+– GPGPU
+– Physik und Objekte
+– Farbräume
+
+* Nach der Liste wird eine Mindmap zur Graphik-Engine erstellt
+* Beschluss: Jeder Teilnehmer soll die Mindmap abstrahieren und darauf aufbauend ein UML-Diagramm erstellen
+* Nach der Mindmap werden Themen gesammelt, die zusätzlich später noch eingearbeitet werden könnten
+– Network
+– Audio
+– KI-Engine
+– Physik-Engine
+– Input
+– Gameplay-Framework
+– Skripten
+– Speicher- und Datenverwaltung
+– Editor
+– Plug-In
+————————————————————————————————
+6. Organisatorisches
+* Aufgaben bis zum nächsten Treffen:
+– Mindmap abstrahieren und vereinfachen - Was ist wirklich wichtig für den Anfang?
+– UML-Klassendiagramm erstellen
+
+* Informationen zu Architektur-Stilen u.ä. sollen an alle geschickt werden
+– Stundenplan für das WS 14/15 erstellen
+– Kevin Keul:Verfügbarkeit des Raumes B318 für die Zeit des Praktikums abklären
+– Kevin Keul:Abklären, ob der Code des Praktikums Open-Source sein darf
+– Maik Klein: Links zu GIT per E-Mail an alle schicken
+– Maik Klein: Repository bei GIT für das Praktikum erstellen
+– GIT-Account erstellen und MaikKlein adden
+– Präsentationen bei GIT hochladen
+
+* Themen des nächsten Treffens:
+– Kommunikationsplattform neben GIT
+– Einteilung in Teams und Verteilung von Aufgaben
+– Wöchentliches Treffen festlegen
+– Dokumentationsleiter bestimmen
+– UML-Diagramme vergleichen
+
+* Nächstes Treffen: 08.10.2014, 10:30 bis 16:00 Uhr, B017
+
