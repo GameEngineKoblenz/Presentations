@@ -1,0 +1,38 @@
+siehe teil2.txt:
+-> Gameplay, Sound wichtig.
+   mind 1 Thema pro Person.
+
+Style:
+  
+Wiki: Chris -> Charts, Wiki ist fertig
+
+Cloud: Google drive 15GB
+
+Assimp: Elvira, Mesh class fertig. VS Assimp buggy?
+
+ShaderManager: In arbeit -> Maik abeitet an logging mit Niklas.
+
+Normal: Funktioniert, sendSampler2D Bug, struct bug
+
+SpotLight: bug?
+
+Fbo: Läuft? aber auch mit Bug? Stencil? Kevin hat keine Lust mehr auf FBO.
+
+OpenGL Debugger: Überall bugs? Wird bald funktionieren.
+
+Szenengraph: Überarbeitet, weniger Aufwand 
+             Glew -> Replace?
+
+#include überarbeiteno
+
+Input: Läuft, nur eine Taste gleichzeitig?
+
+add Github afranke91
+
+keine Skybox
+
+Glew: replace
+
+Editor und Game
+
+
