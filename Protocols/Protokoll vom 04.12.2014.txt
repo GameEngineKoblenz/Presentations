@@ -1,0 +1,31 @@
+Protokoll vom 04.12.14
+
+
+Fehler beim Upload, Pull Requests funktionieren nicht, Maik meinte evtl Probleme mit glm und wird danach schauen.
+
+FBO funktioniert
+
+Ausgaben vom Debugging werden in eine Textdatei geschrieben (Typ, ID, Schweregrad, Nachricht)
+
+Normalmapping steht
+
+includes.h nun pro Ordnerstruktur (z.B. CameraInclude.h für den Ordner Camera), defs.h kommt komplett raus
+
+Logging steht soweit, es wird ein Logfile generiert, aber funktioneriert noch nicht in Visual Studio
+
+Wir haben uns darauf geeinigt, unsere Beispiele in Ex_bla und Tests in Test_bla umzubenennen, ohne zu nummerieren.
+
+Die Skybox funktioniert
+
+Beim Input gibt es das Problem, dass noch nicht durch Tastendruck nicht zwischen den Map Klassen gewechselt werden kann, z.B. zum Menü.
+Aber da noch nicht ganz sicher ist wie das Menü werden soll wird das auf später verschoben.
+
+Jeder soll Chris den Namen seines Google Konto schicken.
+
+Es gibt weiterhin das Problem, dass nicht mehrere Texturen übergeben werden, siehe Issue #78
+
+Jeder soll alles fertige hochladen, damit die 1. Phase offiziell beendet werden kann.
+
+Bis zur nächste Woche recherchiert jeder zu seinem neuen Thema.
+
+
