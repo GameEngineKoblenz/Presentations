@@ -1,0 +1,77 @@
+﻿# Protokoll vom 11.12.2014 #
+
+- Gesprächsführer: Maik, Protokollant: Marcel -
+
+- Es fehlten: Elli und Jan (entschuldigt über Skype) -
+
+- Diskussion über Compute-Shader vs. OpenCL führte zu der Entscheidung, dass die Partikel-Gruppe erstmal Compute-Shader benuten wird
+	
+- Maik stellte seinen Fortschritt beim Renderer vor: 
+	=> Shader bekommt VAO mit den entsprechenden Buffern (Position, Normals, UVs usw.)
+	=> Compile error wird geworfen, wenn falsche Eingaben gemacht werden
+	------------------------------------------------------------------------------------------
+	=> In Übereinstimmung mit dem Team, wird Maik weiter an dem Shader-System arbeiten
+	=> Auch der Szenegraph muss später noch angepasst werden an das neue System 
+	
+- Chris stellte Themen vor, mit denen er und Jan sich in nächster Zeit beschäftigen werden bzw. möchten:
+	=> Shadow mapping, SSAO, Deferred Shading
+		=> SSAO und Deferred Shading eher für später
+	=> FXAA, Screen Space Reflection (Jan)
+	=> Wetter-Tag-Nacht-Wechsel 
+	=> God-Rayce 
+	=> Post-Processiong (Motion Blur, Physcally based camera rendering, Bloom usw.)
+	------------------------------------------------------------------------------------------
+	=> Zunächst wird Shadow Mapping implementiert(Chris)
+	
+- Auch die Tiefentextur des FBO funktioniert nun, nachdem ein paar Werte in der Kamera angepasst wurden
+	=> Alle Änderungen wurden schon als Pull Request am selben Tag rausgegeben
+
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+
+# Besprechung vom Team Gameplay (Lisa, Svenja, Niklas, Maik und Marcel) #
+
+- Sounds sind schon abspielbar und sogar Effekte aktivierbar
+	=> physikalisch korrekter Sound (Eine Wand ist zwischen Quelle und Hörer = kein Sound usw.) wird als wünschenswert festgehalten, aber auf später verlegt
+	=> 5.1 Simulation und echter 3D-Sound werden in Aussicht gestellt als mögliche Pläne
+	
+- Physik:
+	=> Es wurde sich darauf geeinigt, dass Kollisionserkennung sehr wichtig ist für den Anfang und soll dementsprechend bald möglichst implementiert werden 
+	
+- KI:
+	=> Behaviour trees, State machines sollen für das Verhalten der KI eingebaut werden
+	=> Wir wollen KI auch eventuell steuerbar machen können (Player-Modul, KI-Modul)
+	=> Eine Graphen-Datenstruktur soll implementiert werden um Testfälle schreiben zu können (wurde am gleichen Tag noch erledigt)
+	------------------------------------------------------------------------------------------
+	=> Fazit: Wir wollen uns weiterhin mit Algorithmen beschäftigen und uns in die Themen (s.o.) einlesen
+	
+	
+-Gameplay:
+	=> Global State wird gebraucht, um zu entscheiden, ob das Spiel gewonnen oder verloren wurde (bspw.)
+	=> Speichestände müssen eingebaut werden
+	=> Ressource Loading ohne Ladebalken wäre wünschenswert (Level Loading )
+	=> Events sollen gemanged werden können (auch im Zusammenhang mit der KI)
+	=> Zeitanimation
+	=> Raytracing in einer Form wäre wünschenswert, bspw. wenn wir einen FPS haben und wissen wollen, ob ein Objekt getroffen wurde
+	=> Schadensberechnung wird wichtig werden für unser Spiel und sollte mit einem Spielernode zusammenhängen
+	=> Debug Informationen brauchen wir für Gameplay Commands und um generelle Dinge zu überprüfen (Richtung eines Blickvektors usw.)
+	=> In Component Riven (Component Patterns) sollten wir uns einlesen
+	=> Wir wollen, dass sich Objekte auch bewegen können 
+	=> wir brauchen einen Spawnpunkt für den Spieler
+
+- Editor:
+	=> Techniken, um bspw. eine Wiese zu erstellen, wären wünschenswert, aber eher etwas für die 3. Phase
+	
+	------------------------------------------------------------------------------------------
+	=> Fazit der Teambesprechung:
+		=> Alle werden sich weiterhin einlesen in die verschiedenen Themen und nach Bedarf und Zeit ein paar Dinge implementieren
+		=> Niklas arbeitet am Sound weiter
+		=> Marcel arbeitet an Kollisionserkennung und einer Testumgebung für Algorithmen und dem A*-Algorithmus
+		=> Svenja und Lisa arbeiten an den KI-Algorithmen
+
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+# Besprechung vom Team Partikelsystem (Madeleine, Kevin, Nico) #
+
+=> Fazit der Teambesprechung:
+	=> Es wird sich weiterhin in die Themen eingelesen
