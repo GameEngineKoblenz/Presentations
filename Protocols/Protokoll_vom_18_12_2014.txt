@@ -1,0 +1,36 @@
+﻿# Gesamt-Protokoll vom 18.12.2014 #
+
+Maik und Chris waren nicht da, beide entschuldigt. 
+Protokollanten gab es in jedem Team, kein Gesprächsführer, wegen Gruppenarbeit!
+
+# Teil-Protokoll vom Team Gameplay #
+
+- Lisa und Svenja:
+	=> Lisa und Svenja haben einen Entscheidungsbaum implementiert
+	=> Eine KI-Einheit kann hunger haben 
+	=> Der Hunger kann abnehmen
+- Marcel:
+	=> Marcel hat Teile des A*-Algorithmus implementiert
+	=> Graphenstruktur für Wegfindung vorgestellt
+	
+- Aufgaben bis nächstes Mal:
+	=> Spieler-Klasse (Marcel)
+		=> Spawn-Punkt
+		=> WASD-Bewegung über eine Plane
+	=> Decision-Tree (Lisa und  Svenja)
+	=> Bounding-Volume-Hierarchie (Elli)
+
+# Teil-Protokoll vom Team Partikel-System #
+
+- Besprechung der bereits implementierten Dinge, abgleich und gemeinsame Überarbeitung
+
+- Aufgaben bis nächstes Mal:
+	=> gemeinsamen Zweig 
+	=> Buffer und Computer Shader implementieren
+	=> Effekt, Emitter -> Klassendiagramm + Erweiterung
+	=> Physikberechnung erst nach den Ferien
+
+Zusatz: 
+Jan und Niklas haben zusammen gearbeitet in der Stunde
+=> Niklas wird weiter an Sound arbeiten 
+=> Jan wird weiter an seinen Themen arbeiten (siehe letztes Protokoll)
