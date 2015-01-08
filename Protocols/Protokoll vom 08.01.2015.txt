@@ -1,0 +1,45 @@
+### Protokoll vom 08.01.2015 ###
+
+Fehlende Personen: Jan und Chris (beide Entschuldigt)
+
+
+# Team Gameplay (Lisa, Svenja, Elli, Maik, Marcel)
+
+- Bounding Volume Hierarchie wurde in die bestehende Umgebung eingebunden 
+- Lisa und Svenja haben den Entscheidungsbaum für Hunger fertig
+- Marcel hat einen spielbaren Charakter und den A*-Algorithmus ausgebaut
+
+- Maik hat dem gesamten Team gezeigt, woran er arbeitet und uns erklärt, welche Umstellungen auf uns zukommen
+- Maik hat ein erstes Entity-Component-System vorgestellt
+
+# Team Partikel-System (Madeleine, Kevin, Nico)
+
+- Bug-Fixing und gemeinsames Arbeiten an einer Arbeitsumgebung
+- ein erstes Konstrukt wurde erarbeitet 
+
+# Team Rendering (Jan, Chris)
+
+- Reflections wurden beendet von Jan
+- Shadow-Mapping ist fast fertig vom Chris
+
+# Team Sound (Niklas)
+
+- Am Sound wurde weiter gearbeitet
+
+
+
+## Aufgaben für nächste Woche ##
+
+- Eine erste funktionierende Umgebung soll fertiggestellt werden (Team Partikel-System)
+
+- Das Entity-Component System und weitere Dinge, die Maik implementiert hat, werden noch von ihm überarbeitet (Maik)
+
+- Der A*-Algorithmus soll mit der KI-Klasse von Svenja und Lisa zusammengelegt werden (Lisa, Svenja, Marcel)
+
+- Eine erste Kollisionserkennung soll möglich sein (Elli)
+
+- Eine spielbare Szene mit KI und Spieler soll erstellt werden (Marcel)
+
+- Anti-Aliasing wird implementiert (Jan)
+
+- Motion Blur und Bloom wird implementiert (Chris)
