@@ -42,7 +42,7 @@ Ziele:
 
 ## Team Sound ##
 
- - Es wurde weiter an Sound gearbeitet
+ - Es wurde weiter an Sound gearbeitet, mehrere Sounds sind abspielbar
 
 Ziel:
  - Wenn der Spieler sich einer Quelle nähert, soll der Sound eingeblendet werden 
