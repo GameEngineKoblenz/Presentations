@@ -1,0 +1,51 @@
+### Protokoll vom 29.01.2015 ###
+
+Alle anwesend gewesen!
+
+
+## Besprechung der 3. Phase ##
+
+# TODO's für die 3. Phase #
+
+- Eine Beispielszene in Verbindung mit einem Spiel soll erstellt werden 
+- Speicher-System (XML, Textfiles usw.) wird benötigt
+	- Maik hat sich schon mal ausgesprochen dafür, diesen Bereich eventuell zu übernehmen
+- GUI:
+	- User Interface für das Spiel (Lebensanzeigen usw.)
+	- Einstellungsmenü für Graphik-Optionen
+	- mit "IM-Gui" eventuell realisierbar
+		- Jan und Chris haben sich schon mal ausgesprochen dafür, diesen Bereich zu übernehmen
+- Gameplay:
+	- Ein Missionsdesign wird benötigt, ein Ziel und auch das Scheitern sollte möglich sein 
+
+# Ferienplanung # 
+
+- Jede Woche: Donnerstag, 11 Uhr bis Open-End (Raum noch unbekannt, CG-Labor oder C208)
+
+# Ausarbeitung #
+
+- Jeder sollte ca. 6-10 Seiten für die Ausarbeitung schreiben + die 3 Seiten für das Referat vom Beginn des Praktikums
+	- Wichtig: Erkennbar, wer was geschrieben hat! 
+- Jeder schreibt in Latex, eine gemeinsame Formatierung wird aber erst erstellt, wenn jeder seine Texte fertig hat
+- Präsentationen sind erstmal optional
+
+
+
+## Vorstellung bisheriger Ergebnisse ##
+
+
+
+- Es wurden Partikel gezeigt, die aus einer Quelle hinaus gehen und sich physikalisch fallend verhalten
+
+- Mehrere Sound-Dateien sind abspielbar, einblendbar, Doppler-Effekt und Surround-Sound
+
+- KI, die umherläuft und durch Kollisionserkennung Angst bekommt
+
+- Deffered Shading wurde gezeigt
+
+- Material-System existiert 
+
+
+## Weitere Arbeiten ## 
+
+- Bis nächste Woche wird an den aktuellen Fortschritten weiter gearbeitet
