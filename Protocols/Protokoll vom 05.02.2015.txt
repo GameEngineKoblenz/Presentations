@@ -1,0 +1,26 @@
+### Protokoll vom 5.02.2015 ###
+
+## Team Gameplay (Lisa, Svenja, Elli, Marcel)## 
+
+- Kollision, Gravity und Beschleunigung mit Beispielszenen
+- Es wurde begonnen ein Quest- und Kampfsystem zu implementieren
+	=> Die Ameise wird stärker, wenn sie frisst und auch schneller
+	=> Die KI verliert leben und zieht dem Spieler leben ab, wenn diese kollidieren
+- Bis nächste Woche erstmal Pause, wegen Klausuren
+	=> Ziele: Questsystem für Spieler, Listener-Pattern, Kampfsystem ausbauen
+	
+## Team Partikel(Madeleine, Nico, Kevin) ##
+
+- Buffer eingebaut und mit einem Bug beschäftigt
+- Ziele: Bug beheben, Alphablending, Point Sprites mit Textur und Farbe über Zeit
+
+## Team Sound (Niklas)## 
+
+- An dem Einlesen von Sound Dateien gearbeitet. Stereo wird nun in mono umgewandelt damit raumklang korrekt wiedergegeben wird
+- Außerdem Komtatibilität mit glm:vec3 hinzugefügt. Als nächstes soll die Interaktion mit dem Szenegraph realisiert werden
+
+## Team Graphik (Chris, Jan) ##
+
+- Bloom, Deferred Shading, SSAO fertig
+- an Renderingkombinationen gearbeitet
+- Ziele: Normalmapping in Renderer integrieren und Effekte wie HDR Blur und Motion Blur
