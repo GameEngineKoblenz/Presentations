@@ -1,0 +1,26 @@
+### Protokoll vom 19.02.2015 ###
+
+## Team Sound (Niklas) ##
+
+- An der Robustheit und Fehleranfälligkeit des Sound-File-Readers wurde gearbeitet
+
+## Team Gameplay/KI/Physik (Lisa, Svenja, Elli, Marcel) ##
+
+- Es wurde am Listener-Pattern gearbeitet
+	=> Soll mit der KI und der Kollision funktionieren
+- Es wurde am Questsystem gearbeitet und ein Item-System wurde angefangen
+
+## Team Graphik (Jan, Chris) ##
+
+- Normalmapping und Parallax Mapping wurden in den GBuffer integriert
+	=> Wenn eine NOrmal oder Heightmap verfügbar ist, wird diese entsprechend gerendert
+- Der Render-Vorgang soll noch verbesser werden
+- Bloom und Radial Blur wurde erstellt
+- An Dept of Field, Motion Blur und Shadow mapping wird weiter gearbeitet
+- Jan will sich in die imgui einarbeiten
+
+## Team Partikel (Madeleine, Kevin, Nico) ##
+
+- Eine Zusammenfassung der Teilergebnisse
+- Einschätzung über das weitere Vorgehen
+- Textureblending wurde bearbeitet und Physik 
