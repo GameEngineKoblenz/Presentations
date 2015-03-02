@@ -1,0 +1,24 @@
+### Protokoll vom 22.01.2015 ###
+
+Fehlende Personen: Niklas (entschuldigt)
+
+## Gesamtbesprechung der Teams ##
+
+- Partikel können erzeugt werden, bewegen sich und löschen sich wieder
+	=> Lebenszeit für jeden Partikel vorhanden
+	=> Compute-Shader und SSBO Example 
+
+- Graphik wurde um Screen Space Reflections, Anti-Aliasing erweitert
+	=> Szenen können mit einem Befehl gerendert werden
+	=> Einstellungen sind möglich (Reflections aktivieren/deaktivieren)
+	=> SSAO, Motion Blur und Shadow Mapping fertig
+	=> in ca. 2 Wochen wird das Team voraussichtlich fertig sein
+
+- Eine KI-Einheit kann sich über einen vorgefertigten Graphen bewegen
+	=> Entscheidung zwischen Hunger und nicht Hunger ist möglich
+
+- Die Phsysik besteht aus der Kollisionserkennung und behandlung
+	=> Eine Beispiel-Szene ist vorhandens
+
+
+=> Alle Teams arbeiten an ihren derzeitigen Sachen weiter

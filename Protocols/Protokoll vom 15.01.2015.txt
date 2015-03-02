@@ -1,0 +1,48 @@
+### Protokoll vom Projekt-Treffen am 15.01.2015 ###
+
+Abwesend: Maik (entschuldigt)
+
+
+## Team Partikel-System ## 
+
+ - Es wurde am Partikel-System gearbeitet
+	=> Bug wurde gefunden
+Ziele:
+ - Das Partikel-System wird überarbeitet
+	=> Über die Laufzeit sollen neue Partikel erstellt werden 
+	=> Partikel sollen in einer Datensstruktur gespeichert werden
+	=> Bugfixing
+
+## Team KI-/Physik-System ##
+
+ - Bounding Box Kollisionserkennung wurde präsentiert
+ - Die Graphenstuktur wurde in die KI-Einheit (Flick) eingebunden
+ - A*-Algorithmus scheint noch Bugs zu haben
+
+Ziele:
+ - Angst und Aggression sollen in den Entscheidungsbaum
+ - Ein Sichtfeld für die KI-Einheit und Geometry
+ - Beispiel-Szene, in der die KI merkt, dass sie mit dem Spieler kollidiert
+ - A*-Algorithmus kontrollieren
+ - Modellierung einer Ameise und eines Gecko
+
+
+## Team Graphik ##
+
+ - Shadow-Mapping wurde weiter porgrammiert
+ - Anti-Aliasing wurde fertiggestellt
+
+Ziele:
+ - Deferred Shading, SSAO, Bloom und Motion Blur
+
+## Team Gameplay ## 
+
+ - Maik arbeitet weiter an der Umstellung auf das neue Rendering-System
+
+
+## Team Sound ##
+
+ - Es wurde weiter an Sound gearbeitet, mehrere Sounds sind abspielbar
+
+Ziel:
+ - Wenn der Spieler sich einer Quelle nähert, soll der Sound eingeblendet werden 
