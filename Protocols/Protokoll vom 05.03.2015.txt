@@ -1,0 +1,37 @@
+﻿### Protokoll vom 05.03.2015 ###
+
+## Team Gameplay + Sound (Lisa, Elli, Svenja, Niklas, Marcel) ##
+
+- Sound wurde in das Listener-Pattern integriert
+	=> In der Beispielszene hört man nun den Spieler laufen und die Ameise
+	=> Sound wird auch leiser, je weiter sich der Spieler von der Ameise entfernt
+	=> Zuweisung der Sounds findet im Node statt
+- Der Decision Tree wurde überarbeitet und auf Enums umgestellt
+	=> Anpasssung der betroffenen Klassen wie AI usw.
+- Verschiedene Goals für das Quest-System wurden eingebaut
+
+=> Ziele: QUest-System mit Listener Pattern verbinden, bessere Verwaltung der Sounds für
+	  die Nodes
+
+
+## Team Partikel (Madeleine, Nico, Kevin) ##
+
+- Zusammenfassung des Zwischenstandes
+- Bug entdeckt (Rotation der Quads)
+- Merge mit dem Master vorbereitet
+
+=> Ziel: XML Struktur fertigstellen, Bug fix, Merge mit Master, PointSprite Größe ändern
+
+
+## Team Ressource-Management (Maik) ##
+
+- Die Daten der Geometry-Klasse sollen ausgelagert werden und außerhalb gemanaged werden
+
+## Team Graphik (Chris, Jan) ##
+
+- Imgui wurde in Cmake integriert
+	=> in der Init müssen nur noch die gui elemente hinzugefügt werden
+- Example Scene:
+	=> Graphik Showcase mit GUI, mit der man Graphik-Elemente ein- und ausschalten kann und
+	   Parameter anpassen kann
+- Shadow Mapping ist fertiggestellt
