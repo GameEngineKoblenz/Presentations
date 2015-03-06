@@ -1,0 +1,26 @@
+﻿### Protokoll vom 26.02.2015 ###
+
+## Team Gameplay (Lisa, Svenja, Elli, Marcel) ##
+
+- Das Listener System wurde für Kollision, Spieler- und KI-Bewegung umgesetzt
+- An der Gravitation + Listener wurde noch gearbeitet
+- Das Item-System wurde weiter ausgearbeitet
+- Es gibt nun auch statische Objekte
+
+## Team Graphik (Jan, Chris) ##
+
+- Renderer überarbeitet
+- Shader leicht geändert, damit dieser performanter ist
+- Heightmap Shadows für Parralax Mapping
+- ImGui in Cmake integriert
+
+- Motion Blur fertig
+- Radial Blur und Depth of Field verbessert
+
+- Shadow Mapping "Finale" und Gui-Tests bis nächste Woche
+
+## Team Partikel (Madeleine, Nico, Kevin) ##
+
+- Zusammentragung aller einzelnen Ergebnisse
+- Texturüberblendung bearbeitet
+- Finale Funktionen bis nächste Woche fertig
