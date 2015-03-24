@@ -1,0 +1,25 @@
+﻿### Protokoll vom 19.03.2015 ###
+
+## Team Gameplay (Lisa, Svenja, Elli, Niklas, Marcel) ##
+
+- Es gibt eine KI, welche um den Ameisen-Hügel patroulliert
+	=> Dafür wurden Anpassungen in der Decide Methode gemacht
+	=> Update-Path für unterschiedliches Verhalten gesplittet
+
+- Der Sound wurde vollständig integriert (bis auf die KI)
+	=> Jeder Spieler hat einen Soundhandler und eine Liste an Sounds
+	=> Hintergrundmusik und statische Sound-Objekte (wie Feuer) können erstellt werden
+	=> Quests können abgeschlossen werden, mit mehreren Goals als Mini-Quests
+	=> Auch Belohnungen wurden eingebaut (EXP, Item)
+
+## Team Graphik (Jan, Chris) ##
+
+- Bugfixes
+	=> Alles funktioniert in beliebiger Kombination
+	=> Framerate geht mit hoher Grafik (Realistisch) nach unten
+
+## Team Partikel (Madeleine, Nico, Kevin) ##
+
+- Beispiel Emitter, Rendertests und Ausarbeitung 
+	=> Code soll noch geordnet werden, weitere Beispiele
+	=> noch vorhandener Tiefenbuffer Bug
