@@ -1,0 +1,39 @@
+### Protokoll vom 12.03.2015 ###
+
+Abwesend: Lisa (Entschuldigt)
+
+Bei diesem Treffen haben sich alle Teams ausgetauscht über ihren derzeitigen Fortschritt:
+
+
+## Partikel-Team (Madeleine, Nico, Kevin) ## 
+
+- Schnee-, Rauch-, Regeneffekte und Fliegen-Schwarm wurden gezeigt
+- Einstellungen der einzelnen Effekte sind möglich
+- Effekte können kombiniert werden
+- Die Effekte können in XML-Dateien erstellt werden und ausgelesen werden
+- Texturen können ineinander geblendert werden 
+
+## Grafik-Team (Jan, Chris) ##
+
+- Screen Space Ambient Occlusion, Antialisaing, Shadow-Mapping, Bloom, Depth of Field und Blur-Effekte wurden gezeigt
+- Mithilfe der ImGui können Effekte ein- und ausgeschaltet werden 
+
+
+## Gameplay-Sound-Team (Lisa, Svenja, Elli, Maik, Niklas, Marcel) ##
+
+- Sammelquest, Inventarsystem, Questsystem, Wegfindung, KI-Entscheidungen wurden gezeigt
+- Der Zusammenhang mit dem Listener-Pattern wurde gezeigt
+- Der Zusammenhang zwischen KI, Spieler und Szenegraph wurde gezeigt
+- Sound wurde vorgeführt
+- Ressourcemanagement-System wurde erklärt
+
+## Anmerkungen von Kevin Keul für die letzten Wochen des Praktikums: ##
+
+- Die Klassen sollten unterschieden werden in Game-Engine und Gameplay
+- Die Zusammenlegung aller Klassen sollte geschehen:
+	=> Erst Graphik + Partikel, dann dazu Sound+Gameplay
+- Tech-Demos sollen erstellt werden und GUIs eingebaut
+- Eine Heightmap und mehr Objekte für die spätere Demo
+
+- Ein Startmenü? 
+- Tag-/Nacht-Wechsel?
