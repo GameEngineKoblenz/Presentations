@@ -1,0 +1,17 @@
+﻿### Protokoll vom 26.03.2015 ###
+Abwesend: Nico (entschuldigt)
+
+## Team Gameplay (Lisa, Svenja, Elli, Niklas, Maik, Marcel) ##
+
+- Alle Gameplay-Klassen wurden in das Hauptrepository gemerged
+	=> Fehler die auftraten wurden während des (gesamten) Treffens zusammen behoben
+
+## Team Graphik (Jan, Chris) ##
+
+- Eine GUI für das Gameplay wurde vorgestellt
+	=> Lebensanzeige, EXP, LVL und Questlog
+	=> Questlog bisher nur als Button
+
+## Team Partikel (Madeleine, Kevin) ##
+
+- Kampfwolke wurde vorgestellt
