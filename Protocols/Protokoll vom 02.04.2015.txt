@@ -1,0 +1,19 @@
+﻿### Protokoll vom 02.04.2015 ###
+Abwesend: Lisa (entschuldigt), Michi (entschuldigt), Niklas (entschuldigt), Chris (entschuldigt), Marcel ab 14 Uhr (wegen KLausur)
+
+## Team Gameplay (Lisa, Svenja, Elli, Niklas, Maik, Marcel) ##
+
+- Terrain Klasse implementiert mit Heightmap
+- Ameise verschwindet nach dem Sterben
+	=> muss noch richtig gelöscht werden
+- Ein Cleanup der Klassen 
+
+## Team Graphik (Jan, Chris) ##
+
+- GUI für Gameplay wurde hochgeladen
+
+## Team Partikel (Madeleine,Nico, Kevin) ##
+
+- Position gefixed
+- Entwurf für die Tiefensortierung
+- Comic Cloud für Gameplay als XML angefangen
