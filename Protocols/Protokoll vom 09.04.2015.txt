@@ -1,0 +1,16 @@
+﻿### Protokoll vom 09.04.2015 ###
+Abwesend: Kevin (entschuldigt), Svenja (ab 14 Uhr, entschuldigt), Jan (entschuldigt), Chris (entschuldigt)
+
+## Team Gameplay (Lisa, Svenja, Elli, Niklas, Maik, Marcel) ##
+
+- Versuch, Partikel-System und GUI einzubinden
+- Anpassung an das Node-Kamera-System
+
+## Team Graphik (Jan, Chris)
+
+- Die GUI wurde bereitgestellt
+
+## Team Partikel (Madeleine,Nico, Kevin) ##
+
+- XML-Datei für das Gameplay fertig
+- Ausarbeitung
