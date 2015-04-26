@@ -1,0 +1,28 @@
+﻿### Protokoll vom 23.04.2015 ###
+
+Abwesend: Jan (entschuldigt)
+
+## Team Gameplay (Lisa, Svenja, Elli, Niklas, Maik, Marcel) ##
+
+- Eine Demo-Szene wurde angefangen zu implementieren
+- Generelle Arbeiten an der Klassenstruktur und Vererbung von KI 
+
+
+## Team Partikel (Madeleine,Nico, Kevin) ##
+
+- Kleinere Partikelarbeiten, Ablauf der Partikelsysteme wurde leicht verändert (start, stopp usw.)
+
+
+
+- Nebenher wurde auch an der Ausarbeitung geschrieben
+
+Zusatz: Folgender Plan für die Präsentation steht fest
+
+- Jede Gruppe erstellt ca. 2 minütige Videos, welche sie präsentieren wollen
+- Reihenfolge:
+	=> Graphics (Szenegraph, Particle-System)
+	=> Physics (Collision, Gravitation/Beschleunigung)
+	=> Sound
+	=> Observer
+	=> Gameplay - Demo (Player - Input, AI - Pathfinding, AI- DecisionTree, Static-Object, Quest und Fight)
+
