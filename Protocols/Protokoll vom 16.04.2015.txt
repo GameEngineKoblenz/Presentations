@@ -1,0 +1,15 @@
+﻿### Protokoll vom 16.04.2015 ###
+
+Wir haben es geschafft: Das Repository wurde gelöscht. :D
+
+## Team Gameplay (Lisa, Svenja, Elli, Niklas, Maik, Marcel) ##
+
+- Generelle Arbeiten an der KI 
+- Partikel-Einbindung ins Gameplay
+- Eine erste Player-GUI wurde angefangen
+
+
+## Team Partikel (Madeleine,Nico, Kevin) ##
+
+- Comic Cloud fertig und eingebunden ins Gameplay
+- Weitere Effekte als XML wurden begonnen
